@@ -1,11 +1,17 @@
 body {
-    background-image: url("../images/front-page-background.jpg");
+    background-image: url("../images/front-page-background.jpg"), linear-gradient(0deg, #E9E2EB 0%, #E6F1F5 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Asap', sans-serif;
     margin: 0px;
     padding: 0px;
+}
+
+#overlay {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(66, 70, 77, 0.48);
 }
 
 
@@ -25,4 +31,27 @@ body {
     width: 100%;
     height: 100%;
     padding: 10px;
+}
+
+
+/*BIG LOGO*/
+
+#big-logo {
+    padding-top: 200px;
+    padding-left: 40px;
+}
+
+#big-logo #underline {
+    background: rgb(0, 97, 232);
+    position: absolute;
+    width: 300px;
+    height: 25px;
+    margin-top: 118px;
+    z-index: 9;
+}
+
+#big-logo img {
+    position: absolute;
+    width: 300px;
+    z-index: 10;
 }
