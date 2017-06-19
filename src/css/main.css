@@ -11,14 +11,11 @@ body {
 
 /*NAVBAR*/
 
-#top-navbar-spacer {
-    height: 40px;
-}
-
 #navbar {
     background: white;
     margin: auto;
     float: right;
+    margin-top: 40px;
     margin-right: 40px;
     padding: 2px;
 }
